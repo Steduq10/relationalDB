@@ -5,7 +5,7 @@ import com.sofkaU.relationalDB.entity.Post;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+
 public interface PostService {
 
     Post createPost(Post post);
